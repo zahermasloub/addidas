@@ -124,13 +124,16 @@ html {
     position: absolute;
     top: 115%;
     right: 7%;
-    background: #fff;
+    background: var(--bg);
     width: 50rem;
     height: 5rem;
     display: flex;
     align-items: center;
     transform: scaleY(0);
     transform-origin: top;
+    border: 1px solid #c9011b;
+    border-radius: 10px;
+    
  }
  .header .search-form.active { 
     transform: scaleY(1);
@@ -139,14 +142,16 @@ html {
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
-    color: var(--black);
+    color: #fff;
     padding: 1rem;
+    background-color: var(--bg);
+    border-radius: 10px;
  }
  .header .search-form label { 
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 1.5rem;
-    color: var(--black);
+    color: #c9011b;
  }
  .header .search-form label:hover { 
      color: var(--main-color);
@@ -155,10 +160,11 @@ html {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: #fff;
-    width: 35rem;
+    background-color: var(--black);
+    width: 31rem;
     height: calc(100vh - 9.5rem);
     padding: 0 1.5rem;
+    border-radius: 10px;
  }
  .header .cart-items-container.active { 
      right: 0;
@@ -169,6 +175,10 @@ html {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    background-color: var(--bg);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 1px 0px 0px red;
  }
  .header .cart-items-container .cart-item .fa-times { 
     position: absolute;
@@ -176,7 +186,7 @@ html {
     right: 1rem;
     font-size: 2rem;
     cursor: pointer;
-    color: var(--black);
+    color: #fff;
  }
  .header .cart-items-container .cart-item .fa-times:hover { 
      color: var(--main-color);
@@ -187,7 +197,7 @@ html {
  .header .cart-items-container .cart-item .content h3 { 
     font-size: 2rem;
     padding-bottom: 0.5rem;
-    color: var(--black);
+    color:#fff;
  }
  .header .cart-items-container .cart-item .content .price { 
     font-size: 1.5rem;
