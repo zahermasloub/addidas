@@ -785,6 +785,8 @@ flex: 1 1 45rem;
             background:#fff;
             width: 30rem;
             height: calc(100vh - 9.5rem);
+            border-radius: 10px;
+            background-color: var(--black);
         }
         .header .navbar.active { 
             right: 0;
