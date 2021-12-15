@@ -792,7 +792,7 @@ flex: 1 1 45rem;
             right: 0;
         }
         .header .navbar a { 
-            color: var(--black);
+            color:#fff;
             display: block;
             margin: 1.5rem;
             padding: 0.5rem;
